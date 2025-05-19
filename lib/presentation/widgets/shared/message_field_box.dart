@@ -23,7 +23,7 @@ class MessageFieldBox extends StatelessWidget {
           icon: const Icon(Icons.send_outlined),
           onPressed: () {
             final textValue = textController.value.text;
-            print('button: $textValue');
+            // print('button: $textValue');
             textController.clear();
             onValue(textValue);
           },
